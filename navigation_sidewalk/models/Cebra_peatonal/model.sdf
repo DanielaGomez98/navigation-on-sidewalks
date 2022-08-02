@@ -1,0 +1,31 @@
+<?xml version="1.0" ?>
+<sdf version="1.7">
+  <model name="Cebra_peatonal">
+    <pose frame=''>6.786 17.514 0.05 0 0 0</pose>
+    <static>true</static>
+    <link name="link_12">
+      <collision name="collision">
+        <geometry>
+          <box>
+            <size>9 4.572 .1</size>
+          </box>
+        </geometry>
+      </collision>
+      <visual name="visual">
+        <cast_shadows>false</cast_shadows>
+        <geometry>
+          <box>
+            <size>9 4.572 .1</size>
+          </box>
+        </geometry>
+        <material>
+          <script>
+            <uri>model://Cebra_peatonal/materials/scripts</uri>
+            <uri>model://Cebra_peatonal/materials/textures</uri>
+            <name>CebraMaterial/Image</name>
+          </script>
+        </material>
+      </visual>
+    </link>
+  </model>
+</sdf>
