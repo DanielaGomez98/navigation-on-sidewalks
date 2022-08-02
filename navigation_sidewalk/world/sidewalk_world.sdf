@@ -1178,7 +1178,7 @@
       <real_time>948 598759886</real_time>
       <wall_time>1646711099 619419398</wall_time>
       <iterations>911696</iterations>
-      <model name='Cebra_peatonal'>
+      <model name='pedestrian_zebra'>
         <pose>6.786 18.938 0.05 0 -0 0</pose>
         <scale>1 1 1</scale>
         <link name='link_12'>
@@ -2022,7 +2022,7 @@
       </link>
       <pose>8.63782 5.58572 0 0 -0 0</pose>
     </model>
-    <model name='Cebra_peatonal'>
+    <model name='pedestrian_zebra'>
       <pose>6.786 18.938 0.05 0 -0 0</pose>
       <static>1</static>
       <link name='link_12'>
@@ -2055,9 +2055,9 @@
           </geometry>
           <material>
             <script>
-              <uri>file://home/nav2_ws/src/sam_bot_description/models/Cebra_peatonal/materials/scripts</uri>
-              <uri>file://home/nav2_ws/src/sam_bot_description/models/Cebra_peatonal/materials/textures</uri>
-              <name>CebraMaterial/Image</name>
+              <uri>file://home/nav2_ws/src/sam_bot_description/models/pedestrian_zebra/materials/scripts</uri>
+              <uri>file://home/nav2_ws/src/sam_bot_description/models/pedestrian_zebra/materials/textures</uri>
+              <name>ZebraMaterial/Image</name>
             </script>
           </material>
         </visual>
