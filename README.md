@@ -9,6 +9,7 @@ Just do a git clone or download the .zip inside the workspace.
 ```bash
 git clone https://github.com/DanielaGomez98/navigation-on-sidewalks.git
 ```
+Then, move the navigation_sidewalk directory to the root of the workspace.
 
 ## Clone the navigation2 repository
 Before running the project, you must download the ROS2 foxy navigation stack repository, from this link: https://github.com/ros-planning/navigation2/tree/foxy-devel 
