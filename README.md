@@ -21,9 +21,19 @@ git clone https://github.com/ros-planning/navigation2.git
 In the root of the workspace, run colcon build.
 ```bash
 colcon build --symlink-install navigation_sidewalk
+. install/setup.bash
 ```
+
+## Run the project
+In the root of the workspace, run the launch file.
+```bash
+ros2 launch navigation_sidewalk display.launch.py
+```
+
 ## Working knowledge
 
 * ROS2 foxy
 * Rviz2
 * Gazebo
+
+** Some dependencies must be installed.
