@@ -4,7 +4,7 @@
   <name>navigation_sidewalk</name>
   <version>0.0.0</version>
   <description>Navigation on Sidewalk</description>
-  <maintainer email="email">daniela-gomez</maintainer>
+  <maintainer email="">daniela-gomez</maintainer>
   <license>Apache License 2.0</license>
 
   <buildtool_depend>ament_cmake</buildtool_depend>
