@@ -21,7 +21,7 @@ In the root of the workspace, run colcon build.
 ```bash
 colcon build --symlink-install navigation_sidewalk
 ```
-## Prerequisites
+## Working knowledge
 
 * ROS2 foxy
 * Rviz2
